@@ -19,6 +19,11 @@ p {
   padding: 0;
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+
+}
 .title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -35,14 +40,15 @@ p {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 .header,
 .site-nav {
   display: flex;
   align-items: center;
 }
-.header {
-  border-bottom: 1 px solid var(--header-border);
+.head {
+  border-bottom: 1px solid var(--header-border);
 }
 
 .site-nav .item {
@@ -68,36 +74,42 @@ p {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.benefits-item,
-.team-item {
-  flex-basis: calc((100%-90px) / 4);
+.benefits .item,
+.section-team .item {
+  flex-basis: calc((100% - 90px) / 4);
 }
 .benefits {
   margin-bottom: 10px;
 }
-.work-item {
-  flex-basis: calc((100%-60px) / 3);
+.works .item {
+  flex-basis: calc((100% - 60px) / 3);
 }
-.photo-team {
-  display: block;
-  margin-bottom: 30px;
+.about.section{
+  padding-top: 0;
 }
+
+
 .team-name {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.description,
+.description{
+  padding: 30px 0px;
+}
 .work-description {
   border-left: 1px solid var(--card-border);
   border-right: 1px solid var(--card-border);
   border-bottom: 1px solid var(--card-border);
+}
+.team.section{
+  background-color: var(--bcg-button-color);
 }
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .logo-footer {
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
 }
 .address-list {
@@ -106,7 +118,7 @@ p {
   gap: 9px;
 }
 .works-button {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -114,7 +126,6 @@ p {
 .works {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc((100%-60px) / 3);
   gap: 30px;
 }
 .work-description {
@@ -143,8 +154,8 @@ p {
   letter-spacing: 0.02em;
   color: var(--basic-text-color);
   text-decoration: none;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -178,6 +189,8 @@ p {
 .hero {
   background-color: var(--bcg-color);
   align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .title {
   margin-bottom: 30px;
@@ -190,6 +203,7 @@ p {
   color: var(--light-color);
 }
 .title-button {
+  border: 0;
   display: inline-block;
   margin: auto;
   padding: 10px 32px;
@@ -305,6 +319,8 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--basic-text-color);
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 .work-form {
   font-weight: 400;

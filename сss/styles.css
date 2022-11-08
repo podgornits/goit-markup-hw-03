@@ -22,17 +22,12 @@ p {
 img {
   display: block;
   max-width: 100%;
-
 }
-.title {
+.main-title {
   margin-top: 0;
   margin-bottom: 30px;
 }
-.visually-hidden,
-.title-team {
-  margin-top: 0;
-  margin-bottom: 50px;
-}
+
 .site-nav {
   margin-left: 93px;
 }
@@ -74,7 +69,7 @@ img {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.benefits .item,
+.benefits-benefits .item,
 .section-team .item {
   flex-basis: calc((100% - 90px) / 4);
 }
@@ -84,16 +79,15 @@ img {
 .works .item {
   flex-basis: calc((100% - 60px) / 3);
 }
-.about.section{
+.about.section {
   padding-top: 0;
 }
-
 
 .team-name {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.description{
+.description {
   padding: 30px 0px;
 }
 .work-description {
@@ -101,8 +95,11 @@ img {
   border-right: 1px solid var(--card-border);
   border-bottom: 1px solid var(--card-border);
 }
-.team.section{
+.team.section {
   background-color: var(--bcg-button-color);
+}
+.section-team .item {
+  background-color: var(--light-color);
 }
 .footer {
   padding-top: 60px;
@@ -192,7 +189,7 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.title {
+.main-title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -248,8 +245,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.title-work,
-.title-team {
+.title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.6666;

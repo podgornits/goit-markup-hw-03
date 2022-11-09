@@ -69,7 +69,7 @@ img {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.benefits-benefits .item,
+.section-benefits .item,
 .section-team .item {
   flex-basis: calc((100% - 90px) / 4);
 }
@@ -250,7 +250,7 @@ img {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.6666;
+  line-height: 1.1666;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--basic-text-color);
@@ -269,7 +269,7 @@ img {
   line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--basic-text-color);
+  color: var(--secondary-text-color);
 }
 .address {
   font-style: normal;
